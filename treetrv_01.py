@@ -1,3 +1,4 @@
+#Node 클래스 선언
 class Node:
     def __init__(self, data, left_node, right_node):
         self.data = data
@@ -32,6 +33,7 @@ print("-------------array 크기-------------")
 n = int(input())
 tree = {}       # [] - 리스트, {} - 딕셔너리
 
+#트리의 구성
 for i in range(n):
     data, left_node, right_node = input().split()
     if left_node == "None":
