@@ -1,3 +1,5 @@
+## 처음 따라한 게임 구현
+
 import sys
 from math import sqrt
 from random import randint
